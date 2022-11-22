@@ -1,0 +1,111 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-image: url("assets/grass_sky.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#logotop{text-align: center;         
+   }
+img{height:300px;
+    width:350px;
+    margin:10px;
+   }
+
+nav ul{
+  margin:10px;
+  padding:10px;
+  list-style:none;
+  text-align:center;  
+}
+
+nav li{ display: inline-block;
+}
+
+nav a{
+  color:#000000;
+  text-decoration: none;
+  font-size: 1.2rem;
+  display:block;
+  width: 150px;
+  padding:3px 7px;
+  text-align: center;
+  font-weight: bold;
+}
+nav a:hover{
+  color: white;
+  background:#007514; 
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1{
+  text-align:center;
+  margin-top:100px;
+  margin-bottom:100px;
+  padding:10px;
+}
+
+.about-text{
+  font-weight:bold;
+  font-family: helvetica;
+}
+
+
+
+.map{
+  text-align:center;
+  border:solid black;
+}
+
+.footer{
+  background: #00bbff;
+  color:black;
+  opacity: 0.9;
+}
+  
+  .links ul {
+    list-style-type: none;
+  }
+  .links li a{
+      color: black;
+      transition: color 0.3s;
+    text-decoration:none;
+    opacity: 1;
+  }
+    .links li a:hover{
+        text-decoration:none;
+        color:#ffffff;
+      background-color: #007514;
+      padding: 4px;
+      margin:2px;
+        }
+  
+  .about-company i{
+    font-size: 25px;
+  }
+  .about-company  a{
+      color:white;
+      transition: color 0.3s;
+  }
+    .about-company  a:hover{
+      color:#007514;
+    }
+
+
+.card-img-top{
+  width: 10px;
+  border:solid black;
+}
+

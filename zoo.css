@@ -1,0 +1,149 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-image: url("assets/grass_sky.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#logotop{text-align: center;         
+   }
+
+.header-btn{
+  background:none;
+  border:none;
+  color:black;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.header-btn:hover{
+  background:green;
+  cursor: pointer;
+  color:white;
+}
+
+
+img{height:300px;
+    width:350px;
+    margin:10px;
+   }
+
+nav ul{
+  margin:10px;
+  padding:10px;
+  list-style:none;
+  text-align:center;  
+}
+
+nav li{ display: inline-block;
+}
+
+nav a{
+  color:#000000;
+  text-decoration: none;
+  font-size: 1.2rem;
+  display:block;
+  width: 150px;
+  padding:3px 7px;
+  text-align: center;
+  font-weight: bold;
+}
+
+nav a:hover{
+  color: white;
+  background:#007514; 
+}
+
+#hero .col {
+  justify-content: center; 
+  flex-direction: column;
+  display: flex;
+}
+
+#hero .img-col {
+  justify-content: flex-end; 
+  margin-top: 25px;
+}
+
+#hero img {
+  max-width: 100% !important;
+  margin:20px;
+  margin-right: 40px;
+}
+
+#hero .card {
+  box-shadow: 11px 7px 16px #000000;
+  border:0;
+  text-align: center;
+  background: url(assets/grass_sky.jpg);
+  background-size: fixed;
+  margin-bottom: 30px;
+}
+
+.card-text{
+  font-weight:bold;
+}
+
+.card-title{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#hero .icon {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 30px;
+  border-width:5px ;
+}
+
+
+.footer{
+  background: #00bbff;
+  color:black;
+  opacity: 0.8;
+}
+  
+.links ul {
+    list-style-type: none;
+  }
+  .links li a{
+    color: black;
+    transition: color 0.3s;
+    text-decoration:none;
+    opacity: 1;
+  }
+    .links li a:hover{
+      text-decoration:none;
+      color:#ffffff;
+      background-color: #007514;
+      padding: 4px;
+      margin:2px;
+  }
+  
+  .about-company i{
+    font-size: 25px;
+  }
+  .about-company  a{
+      color:white;
+      transition: color 0.3s;
+  }
+  .about-company  a:hover{
+      color:#007514;
+  }
+
+.card-text{
+  background: solid white;
+}
+
+.card-img-top{
+  width: 10px;
+  border:solid black;
+}
+
+
+.card-img-top-port{
+  height: 600px;
+  border:solid black;
+}
